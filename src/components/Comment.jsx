@@ -4,7 +4,7 @@ import { Avatar } from './Avatar'
 
 export function Comment({ content, onDeleteComment }) {
 
-    function handleDeleteComment () {
+    function handleDeleteComment() {
 
         onDeleteComment(content)
     }
@@ -18,7 +18,6 @@ export function Comment({ content, onDeleteComment }) {
                             <strong>Diego Lauar</strong>
                             <time title='11 de Maio as 15:02h' dateTime='2022-04-29 15:02:04'>Cerca de 1h atrás</time>
                         </div>
-
 
 
                         <button onClick={handleDeleteComment} title="Deletar Comentario">
